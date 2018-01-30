@@ -1,5 +1,5 @@
 {
-    "name": "sema/minifier-bundle",
+    "name": "wrewolf/minifier-bundle",
     "type": "symfony-bundle",
     "description": "This bundle allows you to minify html code, combine and minify JavaScript files and CSS files without Java VM.",
     "keywords": ["Symfony2", "bundle", "minify"],
@@ -9,6 +9,10 @@
         {
             "name": "Gilles Gauthier",
             "email": "sems2003@mail.ru"
+        },
+        {
+            "name": "Aleksey Andreyanov",
+            "email": "wrewolf@gmail.com"
         }
     ],
     "require": {
@@ -20,7 +24,7 @@
         "symfony/console": "~2.3|~2.7|~3.0|~4.0"
     },
     "autoload":     {
-        "psr-0": { "Sema\\Bundle\\MinifierBundle": "" }
+        "psr-0": { "Wrewolf\\Bundle\\MinifierBundle": "" }
     },
-    "target-dir": "Sema/Bundle/MinifierBundle"
+    "target-dir": "Wrewolf/Bundle/MinifierBundle"
 }
