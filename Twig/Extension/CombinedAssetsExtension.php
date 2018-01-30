@@ -1,6 +1,6 @@
 <?php
 
-namespace Sema\Bundle\MinifierBundle\Twig\Extension;
+namespace Wrewolf\Bundle\MinifierBundle\Twig\Extension;
 
 use Symfony\Component\DependencyInjection\ContainerInterface;
 

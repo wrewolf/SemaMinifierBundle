@@ -1,8 +1,8 @@
 <?php
 
-namespace Sema\Bundle\MinifierBundle\Twig\TokenParser;
+namespace Wrewolf\Bundle\MinifierBundle\Twig\TokenParser;
 
-use Sema\Bundle\MinifierBundle\Twig\Node\MinifyHTMLNode;
+use Wrewolf\Bundle\MinifierBundle\Twig\Node\MinifyHTMLNode;
 
 class MinifyHTMLTokenParser extends \Twig_TokenParser
 {

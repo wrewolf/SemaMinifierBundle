@@ -1,9 +1,9 @@
 <?php
 
-namespace Sema\Bundle\MinifierBundle;
+namespace Wrewolf\Bundle\MinifierBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class SemaMinifierBundle extends Bundle
+class WrewolfMinifierBundle extends Bundle
 {
 }

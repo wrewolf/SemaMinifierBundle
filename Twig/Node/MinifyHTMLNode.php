@@ -1,10 +1,10 @@
 <?php
 
-namespace Sema\Bundle\MinifierBundle\Twig\Node;
+namespace Wrewolf\Bundle\MinifierBundle\Twig\Node;
 
 class MinifyHTMLNode extends \Twig_Node
 {
-    public function __construct(\Twig_NodeInterface $body, $lineno, $tag = 'minifyhtml')
+    public function __construct(\Twig_Node $body, $lineno, $tag = 'minifyhtml')
     {
         parent::__construct(array('body' => $body), array(), $lineno, $tag);
     }

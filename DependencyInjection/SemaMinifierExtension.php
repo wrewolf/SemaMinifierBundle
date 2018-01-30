@@ -1,6 +1,6 @@
 <?php
 
-namespace Sema\Bundle\MinifierBundle\DependencyInjection;
+namespace Wrewolf\Bundle\MinifierBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}
  */
-class SemaMinifierExtension extends Extension
+class WrewolfMinifierExtension extends Extension
 {
     /**
      * {@inheritdoc}
@@ -25,6 +25,6 @@ class SemaMinifierExtension extends Extension
         $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.xml');
 
-        $container->setParameter('sema_minifier.enable_listener', $config['enable_listener']);
+        $container->setParameter('wrewolf_minifier.enable_listener', $config['enable_listener']);
     }
 }

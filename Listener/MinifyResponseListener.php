@@ -1,6 +1,6 @@
 <?php
 
-namespace Sema\Bundle\MinifierBundle\Listener;
+namespace Wrewolf\Bundle\MinifierBundle\Listener;
 
 use Symfony\Component\HttpKernel\Event\FilterResponseEvent;
 
