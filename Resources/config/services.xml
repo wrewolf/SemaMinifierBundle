@@ -5,9 +5,9 @@
     xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <parameters>
-        <parameter key="wrewolf_minifyhtml.listener.class">wrewolf\Bundle\MinifierBundle\Listener\MinifyResponseListener</parameter>
-        <parameter key="wrewolf_minifyhtml.twig.extension">wrewolf\Bundle\MinifierBundle\Twig\Extension\MinifyHTMLExtension</parameter>
-        <parameter key="wrewolf_combined_assets.twig.extension">wrewolf\Bundle\MinifierBundle\Twig\Extension\CombinedAssetsExtension</parameter>
+        <parameter key="wrewolf_minifyhtml.listener.class">Wrewolf\Bundle\MinifierBundle\Listener\MinifyResponseListener</parameter>
+        <parameter key="wrewolf_minifyhtml.twig.extension">Wrewolf\Bundle\MinifierBundle\Twig\Extension\MinifyHTMLExtension</parameter>
+        <parameter key="wrewolf_combined_assets.twig.extension">Wrewolf\Bundle\MinifierBundle\Twig\Extension\CombinedAssetsExtension</parameter>
     </parameters>
 
     <services>

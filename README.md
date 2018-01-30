@@ -10,7 +10,7 @@ line to your composer.json file
 
     {
         "require": {
-        	"sema/minifier-bundle": "dev-master"
+        	"wrewolf/minifier-bundle": "dev-master"
         }
     }
 
@@ -19,7 +19,7 @@ Then update the vendor libraries:
 ```shell
 composer.phar update
 # OR
-composer.phar update sema/minifier-bundle # to only update the bundle
+composer.phar update wrewolf/minifier-bundle # to only update the bundle
 ```
 
 
@@ -34,7 +34,7 @@ You must register the bundle in your kernel:
     {
         $bundles = array(
             // ...
-            new Sema\Bundle\MinifierBundle\SemaMinifierBundle(),
+            new Wrewolf\Bundle\MinifierBundle\SemaMinifierBundle(),
         );
         // ...
     }
@@ -52,7 +52,7 @@ You have two options for minify html:
 You need add follow lines in config.yml
 ```yml
     #app/config.yml
-    sema_minifier:
+    wrewolf_minifier:
         enable_listener: true
 ```
 All responses will be minified
